@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/background.jpg);
+}
+.contener{
+    width: 1200px;
+    margin: 0 auto;
+}
+.perviy .menu .logo{
+    color: #756b62;
+    font-family: 'cormorant Infant';
+    font-size: 28px;
+}
+.perviy .menu .navigation a{
+    font-size: 18px;
+    font-family: 'montserrat';
+    text-decoration: none;
+    padding-right: 40px;
+    color: #988f87;
+}
+.perviy .menu .navigation .odin{
+    display: flex;
+    flex-direction: row;
+}
+.perviy .menu .navigation .dva{
+    display: flex;
+    flex-direction: row;
+}
+.perviy .menu .navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.foto{
+    margin-top: 65px;
+}
+.foto :nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+}
+.foto :nth-child(2){
+    position: relative;
+    top: -172px;
+    left: 500px;
+}
+.foto p{
+    font-family: 'cormorant Infant';
+    font-size: 100px;
+    font-weight: lighter;
+    color: #756b62;
+    position: relative;
+    top: -630px;
+    line-height: 90px;
+}
+.foto :nth-child(3){
+    position: relative;
+    top: -172px;
+    right: 400px;
+}
+.foto :nth-child(5){
+    position: relative;
+    top: -430px;
+    left: 1000px;
+    mix-blend-mode: multiply;
+}
+.text p{
+    font-family: 'cormorant Infant';
+    font-size: 55px;
+    line-height: 50px;
+    color: #988f87;
+    margin-top: -200px;
+    text-align: center;
+    font-style: italic;
+}
+.text p .logo{
+    font-weight: bold;
+    color: #756b62;
+    font-style: normal;
+}
